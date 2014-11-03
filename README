@@ -1,4 +1,24 @@
-This is your new Play application
-=================================
+Teispes myBlog Application
 
-This file will be packaged with your application, when using `activator dist`.
+These are the technologies that we are using in this example :
+
+• Scala 2.11.1
+• Play! Framework 2.3.6
+• Play-Reactivemongo 0.10.5.0.akka23 (MongoDB Driver)
+• MongoDB 2.6.3
+• Angularjs
+• Bootstrap
+
+
+How to run the example:
+
+1- Start the MongoDB
+2- Run the mongo client :
+3- Enter the following commands:
+        use myblog;
+        db.createCollection("post");
+4- Go to myblog folder
+5- Enter the following commands:
+    ./activator run
+6- Go to myblog-ui folder and open the index.html
+7- Enjoy!
